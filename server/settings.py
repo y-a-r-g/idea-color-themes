@@ -144,7 +144,8 @@ LOGGING = {
     }
 }
 
-DEFAULT_FILE_STORAGE = "idea-color-themes-static"
+AWS_STORAGE_BUCKET_NAME = "idea-color-themes-static"
+DEFAULT_FILE_STORAGE = 'storages.backends.s3boto.S3BotoStorage'
 MEDIA_URL = "https://%s.s3.amazonaws.com/" % DEFAULT_FILE_STORAGE
 MEDIA_ROOT = ''
 AWS_ACCESS_KEY_ID = os.environ.get('AWS_ACCESS_KEY_ID', None)
