@@ -1,0 +1,16 @@
+{% include 'menu-item.html' %}
+{% load string_utils %}
+{% load i18n %}
+
+{% if request.path|starts_with:url %}
+    <li class="active">
+        <a href="/themes/download-all/" class="menu-item-btn">
+            <span class="btn btn-sm btn-success">{% trans 'Download all' %}</span>
+        </a>
+    </li>
+    <li class="active">
+        <a href="/themes/upload/" class="menu-item-btn">
+            <span class="btn btn-sm btn-primary">{% trans 'Upload' %}</span>
+        </a>
+    </li>
+{% endif %}

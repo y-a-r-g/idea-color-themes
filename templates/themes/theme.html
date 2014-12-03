@@ -1,0 +1,96 @@
+{% extends 'main.html' %}
+
+{% load staticfiles %}
+{% load i18n %}
+
+{% block styles %}
+    {{ block.super }}
+    <link href="{% static 'styles/themes/theme.css' %}" rel="stylesheet" type="text/css">
+{% endblock %}
+
+{% block meta-keywords %}
+    <meta name="keywords" content="{{ name }}, IDEA, IntelliJ IDEA, Color Themes, Themes, Color Schemes, Schemes" />
+    <meta name="description" content="{{ name }} Color theme" />
+    {% if author %}
+        <meta name="author" content="{{ author }}"/>
+    {% else %}
+        <meta name="author" content="Y-lab" />
+    {% endif %}
+{% endblock %}
+
+{% block content %}
+    <div class="container relative">
+        <h1>{{ name }}
+            <a href="/themes/{{ id }}/download/{{ tokenA }}/{{ tokenB }}" class="btn btn-success btn-download-theme">
+                {% trans 'Download Theme' %}
+                <span class="glyphicon glyphicon-download-alt"></span>
+            </a>
+            <a href="/themes/download-all/" class="btn btn-info pull-right btn-download-all-themes">
+                {% trans 'Download All Themes' %}
+                <span class="glyphicon glyphicon-arrow-right"></span>
+            </a>
+        </h1>
+
+        {% if author %}
+        <p>
+            {% trans 'Theme by' %}
+            {% if website %}
+                <a href="{{ website }}" target="_blank" title="{% trans 'Will be opened in a new window' %}">
+                    {{ author }} <span class="glyphicon glyphicon-new-window"></span></a>
+            {% else %}
+                {{ author }}
+            {% endif %}
+
+        </p>
+        {% endif %}
+
+    </div>
+
+    <div class="container">
+        <div class="well well-sm text-center well-ad-fit">
+            <script type="text/javascript"><!--
+            google_ad_client = "ca-pub-8538465790539239";
+            /* ideacolorthemes.org-ad */
+            google_ad_slot = "2520689909";
+            google_ad_width = 728;
+            google_ad_height = 90;
+            //-->
+            </script>
+            <script type="text/javascript"
+                    src="//pagead2.googlesyndication.com/pagead/show_ads.js">
+            </script>
+        </div>
+    </div>
+
+    {% if comment %}
+        <div class="container">
+            <blockquote class="bg-warning"><pre>{{ comment|safe }}</pre></blockquote>
+        </div>
+    {% endif %}
+
+    {% include 'themes/code-all.html' %}
+
+    <div class="container">
+        <div class="well well-sm">
+            <a href="/themes/{{ id }}/download/{{ tokenA }}/{{ tokenB }}/" class="btn btn-success">
+                {% trans 'Download Theme' %}
+                <span class="glyphicon glyphicon-download-alt"></span>
+            </a>
+            <a href="/themes/download-all/" class="btn btn-info pull-right">
+                {% trans 'Download All Themes' %}
+                <span class="glyphicon glyphicon-arrow-right "></span>
+            </a>
+        </div>
+    </div>
+
+{% endblock %}
+
+{% block footer %}
+    <p class="footer-paragraph">
+        {% blocktrans %}
+            All themes are released under the <a href="http://creativecommons.org/licenses/by-sa/3.0/">
+            Create Commons Attribution-ShareAlike (BY-SA)</a> license
+        {% endblocktrans %}
+    </p>
+    {{ block.super }}
+{% endblock %}

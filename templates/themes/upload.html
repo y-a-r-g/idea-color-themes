@@ -1,0 +1,83 @@
+{% extends 'main.html' %}
+
+{% load i18n %}
+{% load widget_attr %}
+
+{% block content %}
+    <div class="container">
+        <h1>{% trans 'Upload Theme' %}</h1>
+    </div>
+
+    <div class="container">
+        <form action="/themes/upload/" method="post" role="form" enctype="multipart/form-data">
+            {% csrf_token %}
+            <div class="form-group{% if form.name.errors %} has-error{% endif %}">
+                <label for="id_name" class="control-label">{% trans 'Theme name' %}</label>
+                {{ form.name.errors }}
+                {{ form.name|widget_attr:'class:form-control' }}
+            </div>
+            <div class="form-group{% if form.author.errors %} has-error{% endif %}">
+                <label for="id_author" class="control-label">{% trans 'Author' %}
+                    <small>{% trans '(optional)' %}</small>
+                </label>
+                {{ form.author.errors }}
+                {{ form.author|widget_attr:'class:form-control' }}
+            </div>
+            <div class="form-group{% if form.website.errors %} has-error{% endif %}">
+                <label for="id_website" class="control-label">{% trans 'Website' %}
+                    <small>{% trans '(optional)' %}</small>
+                </label>
+                {{ form.website.errors }}
+                {{ form.website|widget_attr:'class:form-control' }}
+            </div>
+            <div class="form-group{% if form.comment.errors %} has-error{% endif %}">
+                <label for="id_comment" class="control-label">{% trans 'Comment' %}
+                    <small>{% trans '(optional)' %}</small>
+                </label>
+                {{ form.comment.errors }}
+                {{ form.comment|widget_attr:'class:form-control' }}
+                <span class="help-block">
+                    {% blocktrans %}
+                        Please, provide some useful information, like a list of supported languages and IDEs.
+                    {% endblocktrans %}
+                </span>
+            </div>
+            <div class="form-group{% if form.archive.errors %} has-error{% endif %}">
+                <label for="id_archive" class="control-label">
+                    {% trans 'Theme file (*.icls or *.xml)' %}
+                </label>
+                {{ form.archive.errors }}
+                {{ form.archive }}
+                <span class="help-block">
+                    {% blocktrans %}
+                        To export theme click <em>File</em> | <em>Export Settings...</em> in the menu.<br/>
+                        Unpack created <abbr title="You can rename file to zip and unpack it in usual way">.jar</abbr>
+                        file and find <em>.icls</em> or <em>.xml</em> file in the <em>colors</em> directory.
+                    {% endblocktrans %}
+                </span>
+            </div>
+            <div class="form-group{% if form.accept.errors %} has-error{% endif %}">
+                {{ form.accept.errors }}
+                <label class="control-label">
+                    {{ form.accept }}
+                    {% blocktrans %}I confirm that I am the author of the theme
+                        and I agree that it will be released under the
+                        <a href="http://creativecommons.org/licenses/by-sa/3.0/">
+                            Create Commons Attribution-ShareAlike (BY-SA)</a> license.
+                    {% endblocktrans %}
+                </label>
+            </div>
+            <input type="submit" value="{% trans 'Upload' %}" class="btn btn-primary"/>
+        </form>
+    </div>
+{% endblock %}
+
+{% block footer %}
+    <p class="footer-paragraph">
+        {% blocktrans %}
+            All themes are released under the <a href="http://creativecommons.org/licenses/by-sa/3.0/">
+            Create Commons Attribution-ShareAlike (BY-SA)</a> license
+        {% endblocktrans %}
+    </p>
+    {{ block.super }}
+{% endblock %}

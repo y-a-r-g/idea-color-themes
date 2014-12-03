@@ -1,0 +1,64 @@
+@import "bootstrap/bootstrap";
+@footer-height: 60px;
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: @footer-height;
+  margin-top: @navbar-height;
+}
+
+#footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: @footer-height;
+  background-color: @navbar-default-bg;
+  color: @navbar-default-color;
+}
+
+p.footer-paragraph {
+  padding: 0;
+  margin: 5px 0 -2px 0;
+}
+
+a.no-uderline, a.no-uderline:hover {
+  text-decoration: none;
+}
+
+.one-line > * {
+  display: inline-block;
+}
+
+.relative {
+  position: relative;
+}
+
+form .errorlist {
+  padding: 0;
+
+  >li {
+    .list-unstyled;
+    .bg-danger;
+    margin-left: 0;
+    padding-left: 10px;
+  }
+}
+
+.navbar-nav > li > a.menu-item-btn {
+  padding: 10px 10px 10px 0;
+}
+
+.navbar-inverse .navbar-nav > .active > a,
+.navbar-inverse .navbar-nav > .active > a:hover,
+.navbar-inverse .navbar-nav > .active > a:focus {
+  background-color: @gray;
+}
+
+.btn-hg {
+  width: 100%;
+  display: block;
+}

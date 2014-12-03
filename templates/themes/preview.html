@@ -1,0 +1,19 @@
+{% load i18n %}
+<div class="theme-preview">
+    <a href="/themes/{{ theme.id }}/" class="no-uderline">
+        {% include "themes/code-java.html" with elements=theme.elements %}
+        <div class="info">
+            <div class="name">{{ theme.name }}</div>
+            <div class="downloads-wrapper">
+                {{ theme.downloads }}
+                <span class="glyphicon glyphicon-download-alt"></span>
+
+            </div>
+        </div>
+        {% if theme.promote %}
+            <div class="promote">
+                <div class="label">{% trans 'FEATURED' %}</div>
+            </div>
+        {% endif %}
+    </a>
+</div>

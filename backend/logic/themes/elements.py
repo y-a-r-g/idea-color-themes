@@ -1,0 +1,191 @@
+
+GENERAL = [
+    ('TEXT', 'Default text'),
+    ('FOLDED_TEXT_ATTRIBUTES', 'Folded text'),
+    ('DELETED_TEXT_ATTRIBUTES', 'Deleted text'),
+    ('SEARCH_RESULT_ATTRIBUTES', 'Search result'),
+    ('WRITE_SEARCH_RESULT_ATTRIBUTES', 'Search result (write access)'),
+    ('IDENTIFIER_UNDER_CARET_ATTRIBUTES', 'Identifier under caret'),
+    ('WRITE_IDENTIFIER_UNDER_CARET_ATTRIBUTES', 'Identifier under caret (write)'),
+    ('TEXT_SEARCH_RESULT_ATTRIBUTES', 'Text search result'),
+    ('TEMPLATE_VARIABLE_ATTRIBUTES', 'Template variable'),
+    ('INJECTED_LANGUAGE_FRAGMENT', 'Injected language fragment'),
+    ('HYPERLINK_ATTRIBUTES', 'Hyperlink'),
+    ('FOLLOWED_HYPERLINK_ATTRIBUTES', 'Followed hyperlink'),
+    ('MATCHED_BRACE_ATTRIBUTES', 'Matched brace'),
+    ('UNMATCHED_BRACE_ATTRIBUTES', 'Unmatched brace'),
+    ('TODO_DEFAULT_ATTRIBUTES', 'TODO defaults'),
+    ('WRONG_REFERENCES_ATTRIBUTES', 'Unknown symbol'),
+    ('DEPRECATED_ATTRIBUTES', 'Deprecated symbol'),
+    ('NOT_USED_ELEMENT_ATTRIBUTES', 'Unused symbol'),
+    ('ERRORS_ATTRIBUTES', 'Error'),
+    ('WARNING_ATTRIBUTES', 'Warning'),
+    ('INFO_ATTRIBUTES', 'Weak warning'),
+    ('GENERIC_SERVER_ERROR_OR_WARNING', 'Problem from server'),
+    ('DUPLICATE_FROM_SERVER', 'Duplicate from server'),
+    ('TYPO', 'Typo'),
+    ('SELECTION_BACKGROUND', 'Selection background', True),
+    ('SELECTION_FOREGROUND', 'Selection foreground', True),
+    ('CARET_COLOR', 'Caret', True),
+    ('CARET_ROW_COLOR', 'Caret row', True),
+    ('RIGHT_MARGIN_COLOR', 'Right margin', True),
+    ('WHITESPACES', 'Whitespaces', True),
+    ('INDENT_GUIDE', 'Vertical indent guide', True),
+    ('SELECTED_INDENT_GUIDE', 'Selected vertical indent guide', True),
+    ('GUTTER_BACKGROUND', 'Gutter background', True),
+    ('LINE_NUMBERS_COLOR', 'Line number', True),
+    ('TEARLINE_COLOR', 'Tear line', True),
+    ('SELECTED_TEARLINE_COLOR', 'Selected tear line', True),
+    ('ADDED_LINES_COLOR', 'Added lines', True),
+    ('MODIFIED_LINES_COLOR', 'Modified lines', True),
+    ('METHOD_SEPARATORS_COLOR', 'Method separator color', True),
+]
+
+LANGUAGE = [
+    ('BAD_CHARACTER', 'Bad character'),
+    ('DEFAULT_KEYWORD', 'Keyword'),
+    ('DEFAULT_IDENTIFIER', 'Identifier'),
+    ('DEFAULT_STRING', 'String'),
+    ('DEFAULT_VALID_STRING_ESCAPE', 'Valid escape sequence'),
+    ('DEFAULT_INVALID_STRING_ESCAPE', 'Invalid escape sequence'),
+    ('DEFAULT_NUMBER', 'Number'),
+    ('DEFAULT_OPERATION_SIGN', 'Operation sign'),
+    ('DEFAULT_BRACES', 'Braces'),
+    ('DEFAULT_PARENTHS', 'Parentheses'),
+    ('DEFAULT_BRACKETS', 'Brackets'),
+    ('DEFAULT_DOT', 'Dot'),
+    ('DEFAULT_COMMA', 'Comma'),
+    ('DEFAULT_SEMICOLON', 'Semicolon'),
+    ('DEFAULT_LINE_COMMENT', 'Line comment'),
+    ('Block comment', 'Block comment'),
+    ('DEFAULT_DOC_COMMENT', 'Doc comment'),
+    ('DEFAULT_DOC_MARKUP', 'Doc comment markup'),
+    ('DEFAULT_DOC_COMMENT_TAG', 'Doc comment tag'),
+    ('DEFAULT_LABEL', 'Label'),
+    ('DEFAULT_CONSTANT', 'Constant'),
+    ('DEFAULT_PREDEFINED_SYMBOL', 'Predefined symbol'),
+    ('DEFAULT_LOCAL_VARIABLE', 'Local variable'),
+    ('DEFAULT_GLOBAL_VARIABLE', 'Global variable'),
+    ('DEFAULT_FUNCTION_DECLARATION', 'Function declaration'),
+    ('DEFAULT_FUNCTION_CALL', 'Function call'),
+    ('DEFAULT_PARAMETER', 'Parameter'),
+    ('DEFAULT_INTERFACE_NAME', 'Interface name'),
+    ('DEFAULT_METADATA', 'Metadata'),
+    ('DEFAULT_CLASS_NAME', 'Class name'),
+    ('DEFAULT_CLASS_REFERENCE', 'Class reference'),
+    ('DEFAULT_INSTANCE_METHOD', 'Instance method'),
+    ('DEFAULT_INSTANCE_FIELD', 'Instance field'),
+    ('DEFAULT_STATIC_METHOD', 'Static method'),
+    ('DEFAULT_STATIC_FIELD', 'Static field'),
+    ('DEFAULT_TAG', 'Markup tag'),
+    ('DEFAULT_ATTRIBUTE', 'Markup attribute'),
+    ('DEFAULT_ENTITY', 'Markup entity'),
+    ('DEFAULT_TEMPLATE_LANGUAGE_COLOR', 'Template language'),
+]
+
+CONSOLE = [
+    ('CONSOLE_NORMAL_OUTPUT', 'Console standard output'),
+    ('CONSOLE_ERROR_OUTPUT', 'Console error output'),
+    ('CONSOLE_USER_INPUT', 'Console user input'),
+    ('CONSOLE_SYSTEM_OUTPUT', 'Console system output'),
+    ('LOG_ERROR_OUTPUT', 'Log console error'),
+    ('LOG_WARNING_OUTPUT', 'Log console warning'),
+    ('LOG_EXPIRED_ENTRY', 'Log console expired entry'),
+    ('CONSOLE_RED_OUTPUT', 'ANSI Red'),
+    ('CONSOLE_GREEN_OUTPUT', 'ANSI Green'),
+    ('CONSOLE_YELLOW_OUTPUT', 'ANSI Yellow'),
+    ('CONSOLE_BLUE_OUTPUT', 'ANDI Blue'),
+    ('CONSOLE_MAGENTA_OUTPUT', 'ANSI Magenta'),
+    ('CONSOLE_CYAN_OUTPUT', 'ANSI Cyan'),
+    ('CONSOLE_GRAY_OUTPUT', 'ANSI Gray'),
+    ('CONSOLE_BACKGROUND_KEY', 'Console background', True),
+]
+
+CUSTOM = [
+    ('CUSTOM_KEYWORD1_ATTRIBUTES', 'Keyword1'),
+    ('CUSTOM_KEYWORD2_ATTRIBUTES', 'Keyword2'),
+    ('CUSTOM_KEYWORD3_ATTRIBUTES', 'Keyword3'),
+    ('CUSTOM_KEYWORD4_ATTRIBUTES', 'Keyword4'),
+    ('CUSTOM_NUMBER_ATTRIBUTES', 'Number'),
+    ('CUSTOM_STRING_ATTRIBUTES', 'String'),
+    ('CUSTOM_LINE_COMMENT_ATTRIBUTES', 'Line comment'),
+    ('CUSTOM_MULTI_LINE_COMMENT_ATTRIBUTES', 'Block comment'),
+    ('CUSTOM_VALID_STRING_ESCAPE_ATTRIBUTES', 'Valid string escape'),
+    ('CUSTOM_INVALID_STRING_ESCAPE_ATTRIBUTES', 'Invalid string escape'),
+]
+
+DEBUGGER = [
+    ('BREAKPOINT_ATTRIBUTES', 'Breakpoint line'),
+    ('EXECUTIONPOINT_ATTRIBUTES', 'Execution point'),
+    ('RECURSIVE_CALL_ATTRIBUTES', 'Recursive calls highlighting', True),
+]
+
+DARK_DEFAULTS = [
+    ('HYPERLINK_ATTRIBUTES', (None, None, '287bde', None, None, '1', '287bde')),
+    ('FOLLOWED_HYPERLINK_ATTRIBUTES', (None, None, '287bde', None, None, '1', '287bde')),
+    ('MATCHED_BRACE_ATTRIBUTES', (None, None, 'ff8647', None, None, None, None)),
+    ('UNMATCHED_BRACE_ATTRIBUTES', (None, None, 'd1243b', None, None, None, None)),
+    ('TODO_DEFAULT_ATTRIBUTES', (None, True, 'a8c023', None, 'a74c0', None, None)),
+    ('WRONG_REFERENCES_ATTRIBUTES', (None, None, 'bc3f3c', None, None, None, None)),
+    ('NOT_USED_ELEMENT_ATTRIBUTES', (None, None, '808080', None, None, '2', '808080')),
+    ('ERRORS_ATTRIBUTES', (None, None, None, None, 'bc3f3c', '2', 'bc3f3c')),
+    ('WARNING_ATTRIBUTES', (None, None, None, '52503a', '8c8c00', '2', None)),
+    ('INFO_ATTRIBUTES', (None, None, None, None, 'aeae80', '2', 'aeae80')),
+    ('GENERIC_SERVER_ERROR_OR_WARNING', (None, None, None, None, 'f49810', '1', 'f49810')),
+    ('DUPLICATE_FROM_SERVER', (None, None, None, '5e5339', None, None, None)),
+    ('TYPO', (None, None, None, None, None, '2', '867f27')),
+    ('CARET_COLOR', 'bbbbbb'),
+    ('RIGHT_MARGIN_COLOR', '323232'),
+    ('WHITESPACES', '505050'),
+    ('ADDED_LINES_COLOR', '295622'),
+    ('MODIFIED_LINES_COLOR', '415f69'),
+    ('CONSOLE_RED_OUTPUT', (None, None, 'ff6b68', None, None, None, None)),
+    #('CONSOLE_GREEN_OUTPUT', ''),
+    #('CONSOLE_YELLOW_OUTPUT', ''),
+    ('CONSOLE_BLUE_OUTPUT', (None, None, '5394ec', None, None, None, None)),
+    ('CONSOLE_MAGENTA_OUTPUT', (None, None, '983498', None, None, None, None)),
+    ('CONSOLE_CYAN_OUTPUT', (None, None, '006969', None, None, None, None)),
+    #('CONSOLE_GRAY_OUTPUT', ''),
+    ('BREAKPOINT_ATTRIBUTES', (None, None, None, '3a2323', None, None, None)),
+    ('EXECUTIONPOINT_ATTRIBUTES', (None, None, None, '2d6099', None, None, None)),
+    ('RECURSIVE_CALL_ATTRIBUTES', '574300'),
+
+    #FS
+    ('FILESTATUS_ADDED', '629755'),
+    ('FILESTATUS_DELETED', '6c6c6c'),
+    ('FILESTATUS_IDEA_FILESTATUS_DELETED_FROM_FILE_SYSTEM', '6c6c6c'),
+    ('FILESTATUS_IDEA_FILESTATUS_IGNORED', '848504'),
+    ('FILESTATUS_IDEA_FILESTATUS_MERGED_WITH_BOTH_CONFLICTS', 'd5756c'),
+    ('FILESTATUS_IDEA_FILESTATUS_MERGED_WITH_CONFLICTS', 'd5756c'),
+    ('FILESTATUS_IDEA_FILESTATUS_MERGED_WITH_PROPERTY_CONFLICTS', 'd5756c'),
+    ('FILESTATUS_MERGED', '9876aa'),
+    ('FILESTATUS_MODIFIED', '6897bb'),
+    #('FILESTATUS_NOT_CHANGED', ''),
+    ('FILESTATUS_NOT_CHANGED_IMMEDIATE', '6897bb'),
+    ('FILESTATUS_NOT_CHANGED_RECURSIVE', '6897bb'),
+    ('FILESTATUS_UNKNOWN', 'd1675a'),
+    ('FILESTATUS_addedOutside', '629755'),
+    ('FILESTATUS_changelistConflict', 'd5756c'),
+    ('FILESTATUS_modifiedOutside', '6897bb'),
+
+    #diff
+    ('DIFF_CONFLICT', (None, None, None, '45302b', '8f5247', None, None)),
+    ('DIFF_DELETED', (None, None, None, '484a4a', '656e76', None, None)),
+    ('DIFF_INSERTED', (None, None, None, '294436', '447152', None, None)),
+    ('DIFF_MODIFIED', (None, None, None, '385570', '43698d', None, None)),
+]
+
+LIGHT_DEFAULTS = []
+
+ALL = [GENERAL, LANGUAGE, CONSOLE, CUSTOM, DEBUGGER]
+FLATTEN = GENERAL + LANGUAGE + CONSOLE + CUSTOM + DEBUGGER
+#ONE_LINE_ELEMENTS = [e[0] for e in FLATTEN if len(e) >= 3 and e[2]]
+#MULTI_LINE_ELEMENTS = [e[0] for e in FLATTEN if len(e) < 3 or (not e[2])]
+
+PARAM_BOLD = 0
+PARAM_ITALIC = 1
+PARAM_FOREGROUND = 2
+PARAM_BACKGROUND = 3
+PARAM_ERROR_STRIPE = 4
+PARAM_EFFECT_TYPE = 5
+PARAM_EFFECT_COLOR = 6

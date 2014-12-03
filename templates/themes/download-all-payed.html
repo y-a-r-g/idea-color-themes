@@ -1,0 +1,26 @@
+{% extends 'main.html' %}
+
+{% load i18n %}
+
+{% block meta %}
+    {{ block.super }}
+    <meta http-equiv="refresh" content="0; url=/themes/download-all-archive/"/>
+{% endblock %}
+
+{% block content %}
+    <div class="container">
+        <h1>{% trans 'Thank You!' %}</h1>
+
+        <p>
+            {% blocktrans %}
+                Your download will start shortly.
+            {% endblocktrans %}
+        </p>
+
+        <p class="small">
+            {% blocktrans %}
+                Use <a href="/themes/download-all-archive/">direct link</a> if nothing happened in several seconds.
+            {% endblocktrans %}
+        </p>
+    </div>
+{% endblock %}

@@ -1,0 +1,22 @@
+{% extends 'main.html' %}
+
+{% load i18n %}
+{% load staticfiles %}
+
+{% block styles %}
+    {{ block.super }}
+    <link href="{% static 'styles/themes/list.css' %}" rel="stylesheet" type="text/css">
+    <link href="{% static 'styles/themes/theme.css' %}" rel="stylesheet" type="text/css">
+{% endblock %}
+
+{% block content %}
+    <div class="container">
+        <h3>{% trans 'Themes for InteliJ IDEA, PhpStorm, PyCharm, RubyMine, WebStorm and AppCode.' %}</h3>
+    </div>
+    {% include "themes/list.html" %}
+    <div class="container">
+        <a href="/themes/" class="btn btn-success btn-lg btn-hg">
+            {% trans 'View all themes' %} <span class="glyphicon glyphicon-arrow-right"></span>
+        </a>
+    </div>
+{% endblock %}

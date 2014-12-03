@@ -1,0 +1,5 @@
+{% load string_utils %}
+
+<li{% if request.path|starts_with:url %} class="active"{% endif %}>
+    <a href="{{ url }}">{{ label }}</a>
+</li>

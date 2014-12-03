@@ -1,0 +1,1344 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-10-23 23:32+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+
+#: backend/forms/UploadThemeForm.py:29
+#, python-format
+msgid "Theme with name \"%(name)s\" already exists"
+msgstr "Тема с именем \"%(name)s\" уже загружена"
+
+#: backend/forms/UploadThemeForm.py:48
+msgid "Theme file is not specified"
+msgstr ""
+
+#: backend/forms/UploadThemeForm.py:52
+msgid "Only ICLS and XML files are supported"
+msgstr ""
+
+#: paypal/pro/fields.py:102
+msgid "United States of America"
+msgstr ""
+
+#: paypal/pro/fields.py:103
+msgid "Canada"
+msgstr ""
+
+#: paypal/pro/fields.py:104
+msgid "Afghanistan"
+msgstr ""
+
+#: paypal/pro/fields.py:105
+msgid "Albania"
+msgstr ""
+
+#: paypal/pro/fields.py:106
+msgid "Algeria"
+msgstr ""
+
+#: paypal/pro/fields.py:107
+msgid "American Samoa"
+msgstr ""
+
+#: paypal/pro/fields.py:108
+msgid "Andorra"
+msgstr ""
+
+#: paypal/pro/fields.py:109
+msgid "Angola"
+msgstr ""
+
+#: paypal/pro/fields.py:110
+msgid "Anguilla"
+msgstr ""
+
+#: paypal/pro/fields.py:111
+msgid "Antarctica"
+msgstr ""
+
+#: paypal/pro/fields.py:112
+msgid "Antigua & Barbuda"
+msgstr ""
+
+#: paypal/pro/fields.py:113
+msgid "Argentina"
+msgstr ""
+
+#: paypal/pro/fields.py:114
+msgid "Armenia"
+msgstr ""
+
+#: paypal/pro/fields.py:115
+msgid "Aruba"
+msgstr ""
+
+#: paypal/pro/fields.py:116
+msgid "Australia"
+msgstr ""
+
+#: paypal/pro/fields.py:117
+msgid "Austria"
+msgstr ""
+
+#: paypal/pro/fields.py:118
+msgid "Azerbaijan"
+msgstr ""
+
+#: paypal/pro/fields.py:119
+msgid "Bahama"
+msgstr ""
+
+#: paypal/pro/fields.py:120
+msgid "Bahrain"
+msgstr ""
+
+#: paypal/pro/fields.py:121
+msgid "Bangladesh"
+msgstr ""
+
+#: paypal/pro/fields.py:122
+msgid "Barbados"
+msgstr ""
+
+#: paypal/pro/fields.py:123
+msgid "Belarus"
+msgstr ""
+
+#: paypal/pro/fields.py:124
+msgid "Belgium"
+msgstr ""
+
+#: paypal/pro/fields.py:125
+msgid "Belize"
+msgstr ""
+
+#: paypal/pro/fields.py:126
+msgid "Benin"
+msgstr ""
+
+#: paypal/pro/fields.py:127
+msgid "Bermuda"
+msgstr ""
+
+#: paypal/pro/fields.py:128
+msgid "Bhutan"
+msgstr ""
+
+#: paypal/pro/fields.py:129
+msgid "Bolivia"
+msgstr ""
+
+#: paypal/pro/fields.py:130
+msgid "Bosnia and Herzegovina"
+msgstr ""
+
+#: paypal/pro/fields.py:131
+msgid "Botswana"
+msgstr ""
+
+#: paypal/pro/fields.py:132
+msgid "Bouvet Island"
+msgstr ""
+
+#: paypal/pro/fields.py:133
+msgid "Brazil"
+msgstr ""
+
+#: paypal/pro/fields.py:134
+msgid "British Indian Ocean Territory"
+msgstr ""
+
+#: paypal/pro/fields.py:135
+msgid "British Virgin Islands"
+msgstr ""
+
+#: paypal/pro/fields.py:136
+msgid "Brunei Darussalam"
+msgstr ""
+
+#: paypal/pro/fields.py:137
+msgid "Bulgaria"
+msgstr ""
+
+#: paypal/pro/fields.py:138
+msgid "Burkina Faso"
+msgstr ""
+
+#: paypal/pro/fields.py:139
+msgid "Burundi"
+msgstr ""
+
+#: paypal/pro/fields.py:140
+msgid "Cambodia"
+msgstr ""
+
+#: paypal/pro/fields.py:141
+msgid "Cameroon"
+msgstr ""
+
+#: paypal/pro/fields.py:142
+msgid "Cape Verde"
+msgstr ""
+
+#: paypal/pro/fields.py:143
+msgid "Cayman Islands"
+msgstr ""
+
+#: paypal/pro/fields.py:144
+msgid "Central African Republic"
+msgstr ""
+
+#: paypal/pro/fields.py:145
+msgid "Chad"
+msgstr ""
+
+#: paypal/pro/fields.py:146
+msgid "Chile"
+msgstr ""
+
+#: paypal/pro/fields.py:147
+msgid "China"
+msgstr ""
+
+#: paypal/pro/fields.py:148
+msgid "Christmas Island"
+msgstr ""
+
+#: paypal/pro/fields.py:149
+msgid "Cocos (Keeling) Islands"
+msgstr ""
+
+#: paypal/pro/fields.py:150
+msgid "Colombia"
+msgstr ""
+
+#: paypal/pro/fields.py:151
+msgid "Comoros"
+msgstr ""
+
+#: paypal/pro/fields.py:152
+msgid "Congo"
+msgstr ""
+
+#: paypal/pro/fields.py:153
+msgid "Cook Iislands"
+msgstr ""
+
+#: paypal/pro/fields.py:154
+msgid "Costa Rica"
+msgstr ""
+
+#: paypal/pro/fields.py:155
+msgid "Croatia"
+msgstr ""
+
+#: paypal/pro/fields.py:156
+msgid "Cuba"
+msgstr ""
+
+#: paypal/pro/fields.py:157
+msgid "Cyprus"
+msgstr ""
+
+#: paypal/pro/fields.py:158
+msgid "Czech Republic"
+msgstr ""
+
+#: paypal/pro/fields.py:159
+msgid "Denmark"
+msgstr ""
+
+#: paypal/pro/fields.py:160
+msgid "Djibouti"
+msgstr ""
+
+#: paypal/pro/fields.py:161
+msgid "Dominica"
+msgstr ""
+
+#: paypal/pro/fields.py:162
+msgid "Dominican Republic"
+msgstr ""
+
+#: paypal/pro/fields.py:163
+msgid "East Timor"
+msgstr ""
+
+#: paypal/pro/fields.py:164
+msgid "Ecuador"
+msgstr ""
+
+#: paypal/pro/fields.py:165
+msgid "Egypt"
+msgstr ""
+
+#: paypal/pro/fields.py:166
+msgid "El Salvador"
+msgstr ""
+
+#: paypal/pro/fields.py:167
+msgid "Equatorial Guinea"
+msgstr ""
+
+#: paypal/pro/fields.py:168
+msgid "Eritrea"
+msgstr ""
+
+#: paypal/pro/fields.py:169
+msgid "Estonia"
+msgstr ""
+
+#: paypal/pro/fields.py:170
+msgid "Ethiopia"
+msgstr ""
+
+#: paypal/pro/fields.py:171
+msgid "Falkland Islands (Malvinas)"
+msgstr ""
+
+#: paypal/pro/fields.py:172
+msgid "Faroe Islands"
+msgstr ""
+
+#: paypal/pro/fields.py:173
+msgid "Fiji"
+msgstr ""
+
+#: paypal/pro/fields.py:174
+msgid "Finland"
+msgstr ""
+
+#: paypal/pro/fields.py:175
+msgid "France"
+msgstr ""
+
+#: paypal/pro/fields.py:176
+msgid "France, Metropolitan"
+msgstr ""
+
+#: paypal/pro/fields.py:177
+msgid "French Guiana"
+msgstr ""
+
+#: paypal/pro/fields.py:178
+msgid "French Polynesia"
+msgstr ""
+
+#: paypal/pro/fields.py:179
+msgid "French Southern Territories"
+msgstr ""
+
+#: paypal/pro/fields.py:180
+msgid "Gabon"
+msgstr ""
+
+#: paypal/pro/fields.py:181
+msgid "Gambia"
+msgstr ""
+
+#: paypal/pro/fields.py:182
+msgid "Georgia"
+msgstr ""
+
+#: paypal/pro/fields.py:183
+msgid "Germany"
+msgstr ""
+
+#: paypal/pro/fields.py:184
+msgid "Ghana"
+msgstr ""
+
+#: paypal/pro/fields.py:185
+msgid "Gibraltar"
+msgstr ""
+
+#: paypal/pro/fields.py:186
+msgid "Greece"
+msgstr ""
+
+#: paypal/pro/fields.py:187
+msgid "Greenland"
+msgstr ""
+
+#: paypal/pro/fields.py:188
+msgid "Grenada"
+msgstr ""
+
+#: paypal/pro/fields.py:189
+msgid "Guadeloupe"
+msgstr ""
+
+#: paypal/pro/fields.py:190
+msgid "Guam"
+msgstr ""
+
+#: paypal/pro/fields.py:191
+msgid "Guatemala"
+msgstr ""
+
+#: paypal/pro/fields.py:192
+msgid "Guinea"
+msgstr ""
+
+#: paypal/pro/fields.py:193
+msgid "Guinea-Bissau"
+msgstr ""
+
+#: paypal/pro/fields.py:194
+msgid "Guyana"
+msgstr ""
+
+#: paypal/pro/fields.py:195
+msgid "Haiti"
+msgstr ""
+
+#: paypal/pro/fields.py:196
+msgid "Heard & McDonald Islands"
+msgstr ""
+
+#: paypal/pro/fields.py:197
+msgid "Honduras"
+msgstr ""
+
+#: paypal/pro/fields.py:198
+msgid "Hong Kong"
+msgstr ""
+
+#: paypal/pro/fields.py:199
+msgid "Hungary"
+msgstr ""
+
+#: paypal/pro/fields.py:200
+msgid "Iceland"
+msgstr ""
+
+#: paypal/pro/fields.py:201
+msgid "India"
+msgstr ""
+
+#: paypal/pro/fields.py:202
+msgid "Indonesia"
+msgstr ""
+
+#: paypal/pro/fields.py:203
+msgid "Iraq"
+msgstr ""
+
+#: paypal/pro/fields.py:204
+msgid "Ireland"
+msgstr ""
+
+#: paypal/pro/fields.py:205
+msgid "Islamic Republic of Iran"
+msgstr ""
+
+#: paypal/pro/fields.py:206
+msgid "Israel"
+msgstr ""
+
+#: paypal/pro/fields.py:207
+msgid "Italy"
+msgstr ""
+
+#: paypal/pro/fields.py:208
+msgid "Ivory Coast"
+msgstr ""
+
+#: paypal/pro/fields.py:209
+msgid "Jamaica"
+msgstr ""
+
+#: paypal/pro/fields.py:210
+msgid "Japan"
+msgstr ""
+
+#: paypal/pro/fields.py:211
+msgid "Jordan"
+msgstr ""
+
+#: paypal/pro/fields.py:212
+msgid "Kazakhstan"
+msgstr ""
+
+#: paypal/pro/fields.py:213
+msgid "Kenya"
+msgstr ""
+
+#: paypal/pro/fields.py:214
+msgid "Kiribati"
+msgstr ""
+
+#: paypal/pro/fields.py:215
+msgid "Korea, Democratic People's Republic of"
+msgstr ""
+
+#: paypal/pro/fields.py:216
+msgid "Korea, Republic of"
+msgstr ""
+
+#: paypal/pro/fields.py:217
+msgid "Kuwait"
+msgstr ""
+
+#: paypal/pro/fields.py:218
+msgid "Kyrgyzstan"
+msgstr ""
+
+#: paypal/pro/fields.py:219
+msgid "Lao People's Democratic Republic"
+msgstr ""
+
+#: paypal/pro/fields.py:220
+msgid "Latvia"
+msgstr ""
+
+#: paypal/pro/fields.py:221
+msgid "Lebanon"
+msgstr ""
+
+#: paypal/pro/fields.py:222
+msgid "Lesotho"
+msgstr ""
+
+#: paypal/pro/fields.py:223
+msgid "Liberia"
+msgstr ""
+
+#: paypal/pro/fields.py:224
+msgid "Libyan Arab Jamahiriya"
+msgstr ""
+
+#: paypal/pro/fields.py:225
+msgid "Liechtenstein"
+msgstr ""
+
+#: paypal/pro/fields.py:226
+msgid "Lithuania"
+msgstr ""
+
+#: paypal/pro/fields.py:227
+msgid "Luxembourg"
+msgstr ""
+
+#: paypal/pro/fields.py:228
+msgid "Macau"
+msgstr ""
+
+#: paypal/pro/fields.py:229
+msgid "Madagascar"
+msgstr ""
+
+#: paypal/pro/fields.py:230
+msgid "Malawi"
+msgstr ""
+
+#: paypal/pro/fields.py:231
+msgid "Malaysia"
+msgstr ""
+
+#: paypal/pro/fields.py:232
+msgid "Maldives"
+msgstr ""
+
+#: paypal/pro/fields.py:233
+msgid "Mali"
+msgstr ""
+
+#: paypal/pro/fields.py:234
+msgid "Malta"
+msgstr ""
+
+#: paypal/pro/fields.py:235
+msgid "Marshall Islands"
+msgstr ""
+
+#: paypal/pro/fields.py:236
+msgid "Martinique"
+msgstr ""
+
+#: paypal/pro/fields.py:237
+msgid "Mauritania"
+msgstr ""
+
+#: paypal/pro/fields.py:238
+msgid "Mauritius"
+msgstr ""
+
+#: paypal/pro/fields.py:239
+msgid "Mayotte"
+msgstr ""
+
+#: paypal/pro/fields.py:240
+msgid "Mexico"
+msgstr ""
+
+#: paypal/pro/fields.py:241
+msgid "Micronesia"
+msgstr ""
+
+#: paypal/pro/fields.py:242
+msgid "Moldova, Republic of"
+msgstr ""
+
+#: paypal/pro/fields.py:243
+msgid "Monaco"
+msgstr ""
+
+#: paypal/pro/fields.py:244
+msgid "Mongolia"
+msgstr ""
+
+#: paypal/pro/fields.py:245
+msgid "Monserrat"
+msgstr ""
+
+#: paypal/pro/fields.py:246
+msgid "Morocco"
+msgstr ""
+
+#: paypal/pro/fields.py:247
+msgid "Mozambique"
+msgstr ""
+
+#: paypal/pro/fields.py:248
+msgid "Myanmar"
+msgstr ""
+
+#: paypal/pro/fields.py:249
+msgid "Namibia"
+msgstr ""
+
+#: paypal/pro/fields.py:250
+msgid "Nauru"
+msgstr ""
+
+#: paypal/pro/fields.py:251
+msgid "Nepal"
+msgstr ""
+
+#: paypal/pro/fields.py:252
+msgid "Netherlands"
+msgstr ""
+
+#: paypal/pro/fields.py:253
+msgid "Netherlands Antilles"
+msgstr ""
+
+#: paypal/pro/fields.py:254
+msgid "New Caledonia"
+msgstr ""
+
+#: paypal/pro/fields.py:255
+msgid "New Zealand"
+msgstr ""
+
+#: paypal/pro/fields.py:256
+msgid "Nicaragua"
+msgstr ""
+
+#: paypal/pro/fields.py:257
+msgid "Niger"
+msgstr ""
+
+#: paypal/pro/fields.py:258
+msgid "Nigeria"
+msgstr ""
+
+#: paypal/pro/fields.py:259
+msgid "Niue"
+msgstr ""
+
+#: paypal/pro/fields.py:260
+msgid "Norfolk Island"
+msgstr ""
+
+#: paypal/pro/fields.py:261
+msgid "Northern Mariana Islands"
+msgstr ""
+
+#: paypal/pro/fields.py:262
+msgid "Norway"
+msgstr ""
+
+#: paypal/pro/fields.py:263
+msgid "Oman"
+msgstr ""
+
+#: paypal/pro/fields.py:264
+msgid "Pakistan"
+msgstr ""
+
+#: paypal/pro/fields.py:265
+msgid "Palau"
+msgstr ""
+
+#: paypal/pro/fields.py:266
+msgid "Panama"
+msgstr ""
+
+#: paypal/pro/fields.py:267
+msgid "Papua New Guinea"
+msgstr ""
+
+#: paypal/pro/fields.py:268
+msgid "Paraguay"
+msgstr ""
+
+#: paypal/pro/fields.py:269
+msgid "Peru"
+msgstr ""
+
+#: paypal/pro/fields.py:270
+msgid "Philippines"
+msgstr ""
+
+#: paypal/pro/fields.py:271
+msgid "Pitcairn"
+msgstr ""
+
+#: paypal/pro/fields.py:272
+msgid "Poland"
+msgstr ""
+
+#: paypal/pro/fields.py:273
+msgid "Portugal"
+msgstr ""
+
+#: paypal/pro/fields.py:274
+msgid "Puerto Rico"
+msgstr ""
+
+#: paypal/pro/fields.py:275
+msgid "Qatar"
+msgstr ""
+
+#: paypal/pro/fields.py:276
+msgid "Reunion"
+msgstr ""
+
+#: paypal/pro/fields.py:277
+msgid "Romania"
+msgstr ""
+
+#: paypal/pro/fields.py:278
+msgid "Russian Federation"
+msgstr ""
+
+#: paypal/pro/fields.py:279
+msgid "Rwanda"
+msgstr ""
+
+#: paypal/pro/fields.py:280
+msgid "Saint Lucia"
+msgstr ""
+
+#: paypal/pro/fields.py:281
+msgid "Samoa"
+msgstr ""
+
+#: paypal/pro/fields.py:282
+msgid "San Marino"
+msgstr ""
+
+#: paypal/pro/fields.py:283
+msgid "Sao Tome & Principe"
+msgstr ""
+
+#: paypal/pro/fields.py:284
+msgid "Saudi Arabia"
+msgstr ""
+
+#: paypal/pro/fields.py:285
+msgid "Senegal"
+msgstr ""
+
+#: paypal/pro/fields.py:286
+msgid "Seychelles"
+msgstr ""
+
+#: paypal/pro/fields.py:287
+msgid "Sierra Leone"
+msgstr ""
+
+#: paypal/pro/fields.py:288
+msgid "Singapore"
+msgstr ""
+
+#: paypal/pro/fields.py:289
+msgid "Slovakia"
+msgstr ""
+
+#: paypal/pro/fields.py:290
+msgid "Slovenia"
+msgstr ""
+
+#: paypal/pro/fields.py:291
+msgid "Solomon Islands"
+msgstr ""
+
+#: paypal/pro/fields.py:292
+msgid "Somalia"
+msgstr ""
+
+#: paypal/pro/fields.py:293
+msgid "South Africa"
+msgstr ""
+
+#: paypal/pro/fields.py:294
+msgid "South Georgia and the South Sandwich Islands"
+msgstr ""
+
+#: paypal/pro/fields.py:295
+msgid "Spain"
+msgstr ""
+
+#: paypal/pro/fields.py:296
+msgid "Sri Lanka"
+msgstr ""
+
+#: paypal/pro/fields.py:297
+msgid "St. Helena"
+msgstr ""
+
+#: paypal/pro/fields.py:298
+msgid "St. Kitts and Nevis"
+msgstr ""
+
+#: paypal/pro/fields.py:299
+msgid "St. Pierre & Miquelon"
+msgstr ""
+
+#: paypal/pro/fields.py:300
+msgid "St. Vincent & the Grenadines"
+msgstr ""
+
+#: paypal/pro/fields.py:301
+msgid "Sudan"
+msgstr ""
+
+#: paypal/pro/fields.py:302
+msgid "Suriname"
+msgstr ""
+
+#: paypal/pro/fields.py:303
+msgid "Svalbard & Jan Mayen Islands"
+msgstr ""
+
+#: paypal/pro/fields.py:304
+msgid "Swaziland"
+msgstr ""
+
+#: paypal/pro/fields.py:305
+msgid "Sweden"
+msgstr ""
+
+#: paypal/pro/fields.py:306
+msgid "Switzerland"
+msgstr ""
+
+#: paypal/pro/fields.py:307
+msgid "Syrian Arab Republic"
+msgstr ""
+
+#: paypal/pro/fields.py:308
+msgid "Taiwan, Province of China"
+msgstr ""
+
+#: paypal/pro/fields.py:309
+msgid "Tajikistan"
+msgstr ""
+
+#: paypal/pro/fields.py:310
+msgid "Tanzania, United Republic of"
+msgstr ""
+
+#: paypal/pro/fields.py:311
+msgid "Thailand"
+msgstr ""
+
+#: paypal/pro/fields.py:312
+msgid "Togo"
+msgstr ""
+
+#: paypal/pro/fields.py:313
+msgid "Tokelau"
+msgstr ""
+
+#: paypal/pro/fields.py:314
+msgid "Tonga"
+msgstr ""
+
+#: paypal/pro/fields.py:315
+msgid "Trinidad & Tobago"
+msgstr ""
+
+#: paypal/pro/fields.py:316
+msgid "Tunisia"
+msgstr ""
+
+#: paypal/pro/fields.py:317
+msgid "Turkey"
+msgstr ""
+
+#: paypal/pro/fields.py:318
+msgid "Turkmenistan"
+msgstr ""
+
+#: paypal/pro/fields.py:319
+msgid "Turks & Caicos Islands"
+msgstr ""
+
+#: paypal/pro/fields.py:320
+msgid "Tuvalu"
+msgstr ""
+
+#: paypal/pro/fields.py:321
+msgid "Uganda"
+msgstr ""
+
+#: paypal/pro/fields.py:322
+msgid "Ukraine"
+msgstr ""
+
+#: paypal/pro/fields.py:323
+msgid "United Arab Emirates"
+msgstr ""
+
+#: paypal/pro/fields.py:324
+msgid "United Kingdom (Great Britain)"
+msgstr ""
+
+#: paypal/pro/fields.py:325
+msgid "United States Minor Outlying Islands"
+msgstr ""
+
+#: paypal/pro/fields.py:326
+msgid "United States Virgin Islands"
+msgstr ""
+
+#: paypal/pro/fields.py:327
+msgid "Unknown or unspecified country"
+msgstr ""
+
+#: paypal/pro/fields.py:328
+msgid "Uruguay"
+msgstr ""
+
+#: paypal/pro/fields.py:329
+msgid "Uzbekistan"
+msgstr ""
+
+#: paypal/pro/fields.py:330
+msgid "Vanuatu"
+msgstr ""
+
+#: paypal/pro/fields.py:331
+msgid "Vatican City State (Holy See)"
+msgstr ""
+
+#: paypal/pro/fields.py:332
+msgid "Venezuela"
+msgstr ""
+
+#: paypal/pro/fields.py:333
+msgid "Viet Nam"
+msgstr ""
+
+#: paypal/pro/fields.py:334
+msgid "Wallis & Futuna Islands"
+msgstr ""
+
+#: paypal/pro/fields.py:335
+msgid "Western Sahara"
+msgstr ""
+
+#: paypal/pro/fields.py:336
+msgid "Yemen"
+msgstr ""
+
+#: paypal/pro/fields.py:337
+msgid "Yugoslavia"
+msgstr ""
+
+#: paypal/pro/fields.py:338
+msgid "Zaire"
+msgstr ""
+
+#: paypal/pro/fields.py:339
+msgid "Zambia"
+msgstr ""
+
+#: paypal/pro/fields.py:340
+msgid "Zimbabwe"
+msgstr ""
+
+#: server/settings.py:99
+msgid "English"
+msgstr "Английский"
+
+#: server/settings.py:100
+msgid "Russian"
+msgstr "Русский"
+
+#: templates/main.html:25
+msgid "Toggle navigation"
+msgstr "Отображение навигации"
+
+#: templates/main.html:30
+msgid "IDEA Color Themes & Fonts"
+msgstr "IDEA Color Themes"
+
+#: templates/main.html:34
+msgid "Home"
+msgstr "Главная"
+
+#: templates/main.html:35
+msgid "Themes"
+msgstr "Темы"
+
+#: templates/main.html:36
+msgid "Help"
+msgstr "Помощь"
+
+#: templates/main.html:37
+msgid "Twitter"
+msgstr "Twitter"
+
+#: templates/main.html:50
+msgid "Feedback email:"
+msgstr "Обратная связь:"
+
+#: templates/help/index.html:7
+msgid "How to install a theme?"
+msgstr "Как установть тему?"
+
+#: templates/help/index.html:10
+msgid ""
+"\n"
+"                Select «File» → «Import Setting» from the main menu and "
+"follow the instructions.\n"
+"                After the IDE restarted go to the Preferences, expand "
+"«Editor» → «Colors and fonts» tab\n"
+"                and choose the installed theme.\n"
+"            "
+msgstr ""
+"\n"
+"Выберите «File» → «Import Setting» из меню и следуйте инструкциям.После "
+"перезапуска среды перейдите в настройки, разверните вкладку «Editor» → "
+"«Colors and fonts» и выберите установленную тему."
+
+#: templates/help/index.html:17
+msgid "Which IDEs are supported?"
+msgstr "Какие среды разработки поддерживаются?"
+
+#: templates/help/index.html:20
+msgid ""
+"\n"
+"                Themes on this site support fully all family of JetBrains' "
+"IDEs:\n"
+"                InteliJ IDEA, PhpStorm, PyCharm, RubyMine, WebStorm and "
+"AppCode.\n"
+"            "
+msgstr ""
+"\n"
+"Темы на этом сайте поддерживают всё семейство сред разработки от JetBrains:"
+"InteliJ IDEA, PhpStorm, PyCharm, RubyMine, WebStorm и AppCode."
+
+#: templates/help/index.html:26
+msgid "Which platforms are supported?"
+msgstr "Какие платформы поддерживаются?"
+
+#: templates/help/index.html:29
+msgid ""
+"\n"
+"                Windows, Mac OS and Linux are fully supported.\n"
+"            "
+msgstr ""
+"\n"
+"Полностью поддерживаются Windows, Mac OS и Linux"
+
+#: templates/help/index.html:34
+msgid "How to help the project?"
+msgstr "Как помочь проекту?"
+
+#: templates/help/index.html:37
+msgid ""
+"\n"
+"                You can donate any amount of money with «Donate» button.\n"
+"                This is non-commercial project but we still have to pay for "
+"the hosting.\n"
+"                That's why we will be glad to receive even a dollar.\n"
+"            "
+msgstr ""
+"\n"
+"Вы можете перевести любое количество денег с помощью кнопки «Donate».Так как "
+"это некомерческий проект, а за хостинг платить нам нужно, то мы будем рады "
+"даже доллару."
+
+#: templates/help/index.html:56
+msgid "Did not find an answer to your question?"
+msgstr "Не нашли ответ на свой вопрос?"
+
+#: templates/help/index.html:59
+msgid ""
+"\n"
+"                Feel free to send email to <a href=\"mailto:"
+"ideacolorthemes@gmail.org\">ideacolorthemes@gmail.org</a>\n"
+"                with any questions, suggestions, bug reports and others. We "
+"read and reply to every mail.\n"
+"            "
+msgstr ""
+"\n"
+"Напишите письмо на <a href=\"mailto:ideacolorthemes@gmail.org"
+"\">ideacolorthemes@gmail.org</a> (можно по-русски). Мы будем рады любым "
+"вопросам, предложениям и баг-репортам. Отвечаем всем."
+
+#: templates/home/index.html:14
+msgid ""
+"Themes for InteliJ IDEA, PhpStorm, PyCharm, RubyMine, WebStorm and AppCode."
+msgstr ""
+"Темы для InteliJ IDEA, PhpStorm, PyCharm, RubyMine, WebStorm и AppCode."
+
+#: templates/home/index.html:19
+msgid "View all themes"
+msgstr "Показать все темы"
+
+#: templates/themes/download-all-payed.html:12
+msgid "Thank You!"
+msgstr "Спасибо!"
+
+#: templates/themes/download-all-payed.html:15
+msgid ""
+"\n"
+"                Your download will start shortly.\n"
+"            "
+msgstr ""
+"\n"
+"Загрузка тем скоро начнется."
+
+#: templates/themes/download-all-payed.html:21
+msgid ""
+"\n"
+"                Use <a href=\"/themes/download-all-archive/\">direct link</"
+"a> if nothing happened in several seconds.\n"
+"            "
+msgstr ""
+"\n"
+"Используйте <a href=\"/themes/download-all-archive/\">прямую ссылку</a> если "
+"загрузка не началась в течении нескольких секунд."
+
+#: templates/themes/download-all.html:7 templates/themes/theme.html:29
+#: templates/themes/theme.html.py:80
+msgid "Download All Themes"
+msgstr "Скачать все темы"
+
+#: templates/themes/download-all.html:10
+msgid ""
+"\n"
+"                You can download all themes in a single archive for <strong>"
+"$1</strong>.\n"
+"                It will help us to keep the site online. Thank you!\n"
+"            "
+msgstr ""
+"\n"
+"Вы можете скачать все темы в одном архиве за <strong>$1</strong>. Это "
+"поможет нашему сайту оставаться в сети. Спасибо!"
+
+#: templates/themes/download-all.html:20
+#, fuzzy
+msgid ""
+"\n"
+"                If you experiencing any trouble with paying or downloading – "
+"feel free to write a message to\n"
+"                <a href=\"mailto:info@ideacolorthemes.org"
+"\">info@ideacolorthemes.org</a>.\n"
+"                We will help you.\n"
+"            "
+msgstr ""
+"\n"
+"Если у вас возникли какие-либо трудности при оплате или скачивании —  "
+"напишите письмо на <a href=\"mailto:info@ideacolorthemes.org"
+"\">info@ideacolorthemes.org</a> и мы вам поможем."
+
+#: templates/themes/index.html:22
+msgid "Show"
+msgstr "Показать сначала"
+
+#: templates/themes/index.html:26 templates/themes/index.html.py:39
+msgid "recent"
+msgstr "свежие"
+
+#: templates/themes/index.html:27 templates/themes/index.html.py:33
+msgid "popular"
+msgstr "популярные"
+
+#: templates/themes/index.html:44
+msgid "themes first, with name contains"
+msgstr "темы, содержащие в названии"
+
+#: templates/themes/index.html:46
+msgid "anything"
+msgstr "любой текст"
+
+#: templates/themes/index.html:51
+msgid "Apply Filter"
+msgstr "Применить Фильтр"
+
+#: templates/themes/index.html:71
+msgid "Nothing found. Try to modify a filter."
+msgstr "Ничего не найдено. Попробуйте поменять фильтр."
+
+#: templates/themes/index.html:81
+msgid "More themes"
+msgstr "Следующая страница"
+
+#: templates/themes/index.html:89 templates/themes/theme.html:90
+#: templates/themes/upload.html:77
+msgid ""
+"\n"
+"            All themes are released under the <a href=\"http://"
+"creativecommons.org/licenses/by-sa/3.0/\">\n"
+"            Create Commons Attribution-ShareAlike (BY-SA)</a> license\n"
+"        "
+msgstr ""
+"\n"
+"            Все темы опубликованны под лицензией <a href=\"http://"
+"creativecommons.org/licenses/by-sa/3.0/\">\n"
+"            Create Commons Attribution-ShareAlike (BY-SA)</a>"
+
+#: templates/themes/menu-item.html:8
+msgid "Download all"
+msgstr "Скачать все"
+
+#: templates/themes/menu-item.html:13 templates/themes/upload.html:70
+msgid "Upload"
+msgstr "Загрузить"
+
+#: templates/themes/preview.html:15
+msgid "FEATURED"
+msgstr "НОВИНКА"
+
+#: templates/themes/theme.html:25 templates/themes/theme.html.py:76
+msgid "Download Theme"
+msgstr "Скачать тему"
+
+#: templates/themes/theme.html:36
+msgid "Theme by"
+msgstr "Тема от"
+
+#: templates/themes/theme.html:38
+msgid "Will be opened in a new window"
+msgstr "Будет открыто в новом окне"
+
+#: templates/themes/upload.html:8
+msgid "Upload Theme"
+msgstr "Загрузить тему"
+
+#: templates/themes/upload.html:15
+msgid "Theme name"
+msgstr "Имя темы"
+
+#: templates/themes/upload.html:20
+msgid "Author"
+msgstr "Автор"
+
+#: templates/themes/upload.html:21 templates/themes/upload.html.py:28
+#: templates/themes/upload.html:35
+msgid "(optional)"
+msgstr "(необязательно)"
+
+#: templates/themes/upload.html:27
+msgid "Website"
+msgstr "Сайт"
+
+#: templates/themes/upload.html:34
+msgid "Comment"
+msgstr "Комментарий"
+
+#: templates/themes/upload.html:40
+msgid ""
+"\n"
+"                        Please, provide some useful information, like a list "
+"of supported languages and IDEs.\n"
+"                    "
+msgstr ""
+"\n"
+"Добавьте, пожалуйста, полезную информацию. Например список поддерживаемых "
+"языков."
+
+#: templates/themes/upload.html:47
+msgid "Theme file (*.icls or *.xml)"
+msgstr "Файл с темой (*.icls или *.xml)"
+
+#: templates/themes/upload.html:52
+msgid ""
+"\n"
+"                        To export theme click <em>File</em> | <em>Export "
+"Settings...</em> in the menu.<br/>\n"
+"                        Unpack created <abbr title=\"You can rename file to "
+"zip and unpack it in usual way\">.jar</abbr>\n"
+"                        file and find <em>.icls</em> or <em>.xml</em> file "
+"in the <em>colors</em> directory.\n"
+"                    "
+msgstr ""
+"\n"
+"                        Чтобы экспортировать тему выберите в меню <em>File</"
+"em> | <em>Export Settings...</em><br/>\n"
+"                        Распакуйте созданный <abbr title=\"Вы можете "
+"переименовать файл в zip и распаковать его как обычно\">.jar</abbr>\n"
+"                        архив и найдите <em>.icls</em> или <em>.xml</em> "
+"файлв каталоге <em>colors</em>.\n"
+"                    "
+
+#: templates/themes/upload.html:63
+msgid ""
+"I confirm that I am the author of the theme\n"
+"                        and I agree that it will be released under the\n"
+"                        <a href=\"http://creativecommons.org/licenses/by-"
+"sa/3.0/\">\n"
+"                            Create Commons Attribution-ShareAlike (BY-SA)</"
+"a> license.\n"
+"                    "
+msgstr ""
+"Я подтверждаю, что я являюсь автором темы\n"
+"                        и даю согласие на публикацию её под лицензией \n"
+"                        <a href=\"http://creativecommons.org/licenses/by-"
+"sa/3.0/\">\n"
+"                            Create Commons Attribution-ShareAlike (BY-SA)</"
+"a>.\n"
+"                    "
+
+#: templates/themes/uploaded.html:13
+msgid "Your theme has been uploaded successfully"
+msgstr "Ваша темы была успешно загружена"
+
+#: templates/themes/uploaded.html:15
+msgid ""
+"\n"
+"                Thank you for contributing a theme!\n"
+"                Your theme will be enabled when a moderator approves it.\n"
+"                It usually takes day or two.\n"
+"            "
+msgstr ""
+"\n"
+"Спасибо, что поделились темой! Она станет доступна на сайте после того, как "
+"модератор проверит её. Обычно это занимает день или два."
+
+#~ msgid "Fonts"
+#~ msgstr "Шрифты"

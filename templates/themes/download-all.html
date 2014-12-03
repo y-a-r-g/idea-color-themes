@@ -1,0 +1,27 @@
+{% extends 'main.html' %}
+
+{% load i18n %}
+
+{% block content %}
+    <div class="container">
+        <h1>{% trans 'Download All Themes' %}</h1>
+
+        <p>
+            {% blocktrans %}
+                You can download all themes in a single archive for <strong>$1</strong>.
+                It will help us to keep the site online. Thank you!
+            {% endblocktrans %}
+        </p>
+        <p>
+            {{ form.render }}
+        </p>
+        <hr/>
+        <p class="small">
+            {% blocktrans %}
+                If you experiencing any trouble with paying or downloading – feel free to write a message to
+                <a href="mailto:info@ideacolorthemes.org">info@ideacolorthemes.org</a>.
+                We will help you.
+            {% endblocktrans %}
+        </p>
+    </div>
+{% endblock %}

@@ -1,0 +1,5 @@
+*.pyc
+.idea
+server.iml
+.env
+.DS_Store

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+{% load staticfiles %}
+{% load compress %}
+<html lang="en">
+<head>
+    {% block head %}
+        {% block meta %}
+            <meta charset="utf-8">
+            <meta http-equiv="X-UA-Compatible" content="IE=edge">
+            {% block viewport %}
+                <meta name="viewport" content="width=device-width, initial-scale=1">
+            {% endblock %}
+            {% block favicon %}
+                <link rel="shortcut icon" href="{% static 'favicon.ico' %}">
+            {% endblock %}
+            {% block meta-keywords %}
+            {% endblock %}
+        {% endblock %}
+
+        <title>{% block title %}{% endblock %}</title>
+
+        {% compress css %}
+            {% block styles %}
+            {% endblock %}
+        {% endcompress %}
+
+    {% endblock %}
+</head>
+<body>
+{% block body %}
+{% endblock %}
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+{% compress js %}
+    {% block scripts %}
+        <script type="text/javascript" src="{% static 'scripts/bootstrap/affix.js' %}"></script>
+        <script type="text/javascript" src="{% static 'scripts/bootstrap/alert.js' %}"></script>
+        <script type="text/javascript" src="{% static 'scripts/bootstrap/button.js' %}"></script>
+        <script type="text/javascript" src="{% static 'scripts/bootstrap/carousel.js' %}"></script>
+        <script type="text/javascript" src="{% static 'scripts/bootstrap/collapse.js' %}"></script>
+        <script type="text/javascript" src="{% static 'scripts/bootstrap/dropdown.js' %}"></script>
+        <script type="text/javascript" src="{% static 'scripts/bootstrap/modal.js' %}"></script>
+        <script type="text/javascript" src="{% static 'scripts/bootstrap/tooltip.js' %}"></script>
+        <script type="text/javascript" src="{% static 'scripts/bootstrap/popover.js' %}"></script>
+        <script type="text/javascript" src="{% static 'scripts/bootstrap/scrollspy.js' %}"></script>
+        <script type="text/javascript" src="{% static 'scripts/bootstrap/tab.js' %}"></script>
+        <script type="text/javascript" src="{% static 'scripts/bootstrap/transition.js' %}"></script>
+    {% endblock %}
+{% endcompress %}
+</body>
+<script type="text/javascript">
+
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-44640459-1']);
+    _gaq.push(['_trackPageview']);
+
+    (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+
+</script>
+</html>

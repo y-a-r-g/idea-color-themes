@@ -1,0 +1,13 @@
+<div class="container">
+    {% for theme in themes %}
+        <div class="thumbnail code-thumbnail">
+            {% include "themes/preview.html" %}
+        </div>
+
+        {% if adPlace == theme.id %}
+            <div class="thumbnail advert-thumbnail">
+                {% include "themes/preview-advert.html" %}
+            </div>
+        {% endif %}
+    {% endfor %}
+</div>

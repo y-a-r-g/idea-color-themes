@@ -1,0 +1,23 @@
+{% extends 'main.html' %}
+
+{% load staticfiles %}
+{% load i18n %}
+
+{% block styles %}
+    {{ block.super }}
+    <link href="{% static 'styles/themes/theme.css' %}" rel="stylesheet" type="text/css">
+{% endblock %}
+
+{% block content %}
+    <div class="container">
+        <h1>{% trans 'Your theme has been uploaded successfully' %}</h1>
+        <h3 class="bg-warning">
+            {% blocktrans %}
+                Thank you for contributing a theme!
+                Your theme will be enabled when a moderator approves it.
+                It usually takes day or two.
+            {% endblocktrans %}
+        </h3>
+    </div>
+    {% include 'themes/code-all.html' %}
+{% endblock %}

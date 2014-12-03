@@ -1,0 +1,95 @@
+{% extends 'main.html' %}
+
+{% load staticfiles %}
+{% load i18n %}
+
+{% block styles %}
+    {{ block.super }}
+    <link href="{% static 'styles/themes/list.css' %}" rel="stylesheet" type="text/css">
+    <link href="{% static 'styles/themes/theme.css' %}" rel="stylesheet" type="text/css">
+{% endblock %}
+
+{% block scripts %}
+    {{ block.super }}
+    <script type="text/javascript" src="{% static 'scripts/themes.js' %}"></script>
+{% endblock %}
+
+{% block content %}
+    <div class="container">
+        <div class="row">
+            <div class="col-md-9 text-center">
+                <div class="filter-line one-line">
+                    <div>{% trans "Show" %}</div>
+                    <div class="dropdown">
+                        <a data-toggle="dropdown" id="filter-order" data-order="{{ order }}" href="#"
+                           class="filter-select js-filter-order-select">
+                            {% if order == 'date' %}{% trans "recent" %}{% else %}
+                                {% trans "popular" %}{% endif %}<span class="caret"></span>
+                        </a>
+                        <ul class="dropdown-menu" role="menu">
+                            <li role="presentation">
+                                <a role="menuitem" tabindex="-1" href="#" class="js-filter-order-item"
+                                   data-order="downloads">
+                                    {% trans "popular" %}
+                                </a>
+                            </li>
+                            <li role="presentation">
+                                <a role="menuitem" tabindex="-1" href="#" class="js-filter-order-item"
+                                   data-order="date">
+                                    {% trans "recent" %}
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div>{% trans "themes first, with name contains" %}</div>
+                    <label>
+                        <input type="text" class="filter-text js-filter-name" placeholder="{% trans "anything" %}"
+                               value="{{ filter }}"/>
+                    </label>
+                    <div>
+                        <a class="apply-filters js-apply-filter" href="#">
+                            {% trans "Apply Filter" %}
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 text-center">
+                <ul class="pagination">
+                    {% for p in pages %}
+                        <li{% if p == page %} class="active"{% endif %}>
+                            <a href="/themes/?order={{ order }}&filter={{ filter }}&page={{ p }}">{{ p }}</a>
+                        </li>
+                    {% endfor %}
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    {% if emptyList %}
+        <div class="container">
+            <div class="alert alert-danger">
+                {% trans 'Nothing found. Try to modify a filter.' %}
+            </div>
+        </div>
+    {% else %}
+        {% include "themes/list.html" %}
+    {% endif %}
+    {% if nextPage %}
+        <div class="container">
+            <a href="/themes/?order={{ order }}&filter={{ filter }}&page={{ nextPage }}"
+               class="btn btn-success btn-lg btn-hg">
+                {% trans 'More themes' %} <span class="glyphicon glyphicon-arrow-right"></span>
+            </a>
+        </div>
+    {% endif %}
+{% endblock %}
+
+{% block footer %}
+    <p class="footer-paragraph">
+        {% blocktrans %}
+            All themes are released under the <a href="http://creativecommons.org/licenses/by-sa/3.0/">
+            Create Commons Attribution-ShareAlike (BY-SA)</a> license
+        {% endblocktrans %}
+    </p>
+    {{ block.super }}
+{% endblock %}

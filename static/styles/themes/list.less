@@ -1,0 +1,146 @@
+@thumbnail-width: 280px;
+@import "../bootstrap/variables";
+
+.theme-preview {
+  position: relative;
+}
+
+.thumbnail:hover {
+  border-color: @link-hover-color;
+}
+
+.code-thumbnail {
+  display: inline-block;
+  width: @thumbnail-width;
+  overflow: hidden;
+}
+
+.advert-thumbnail {
+  display: inline-block;
+  width: @thumbnail-width;
+  overflow: hidden;
+  text-align: center;
+  padding-bottom: 32px;
+}
+
+a .code {
+  text-decoration: none;
+}
+
+.theme-preview .info {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: @state-info-bg;
+  color: @state-info-text;
+  padding: 3px;
+}
+
+.theme-preview .info .name {
+  display: inline-block;
+  font-size: @font-size-large;
+}
+
+.theme-preview .info .downloads-wrapper {
+  display: inline-block;
+  position: absolute;
+  right: 5px;
+  bottom: 5px;
+}
+
+.filter-line {
+  margin: 20px 0;
+}
+
+@filter-line-conrtol-height: 22px;
+
+a.filter-select,
+a.apply-filters,
+input.filter-text {
+  border: 1px solid fade(@link-color, 20%);
+  padding: 0 5px 1px;
+  border-radius: 4px;
+
+  font-size: @font-size-base;
+  font-weight: normal;
+  text-decoration: none;
+  display: inline-block;
+
+  &:hover {
+    border-collor: fade(@link-hover-color, 20%);
+    text-decoration: none;
+  }
+}
+
+input.filter-text {
+  color: @link-color;
+}
+
+a.apply-filters {
+  border-collor: 1px solid fade(@link-color, 50%);
+  background-color: fade(@link-color, 20%);
+
+  padding-left: 8px;
+  padding-right: 8px;
+}
+
+a.filter-select,
+.apply-filters {
+  position: relative;
+
+  &:hover {
+    background-color: fade(@link-color, 35%);
+  }
+  &:active {
+    top: 1px;
+    border-top-width: 2px;
+    margin-top: -1px;
+  }
+}
+
+.pagination {
+  margin: 12px 0;
+}
+
+.preview-advert {
+  position: relative;
+  display: inline-block;
+  top: 17px;
+}
+
+.btn-download-theme {
+  margin-left: 20px;
+  margin-top: -6px;
+}
+
+.btn-download-all-themes {
+  margin-top: 5px;
+}
+
+.well-ad-fit {
+  min-width: 747px;
+}
+
+.code-title {
+  margin-top: 0 !important;
+}
+
+.promote {
+  position: absolute;
+  right: 0;
+  top: 0;
+  -moz-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+.promote .label {
+  background-color: #cc4040;
+  color: #ffffff;
+  font-weight: bold;
+  padding: 5px 80px;
+  margin: 5px -85px 0 0;
+}

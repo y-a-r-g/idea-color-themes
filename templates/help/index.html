@@ -1,0 +1,65 @@
+{% extends 'main.html' %}
+
+{% load i18n %}
+
+{% block content %}
+    <div class="container">
+        <h4>{% trans 'How to install a theme?' %}</h4>
+
+        <p>
+            {% blocktrans %}
+                Select «File» → «Import Setting» from the main menu and follow the instructions.
+                After the IDE restarted go to the Preferences, expand «Editor» → «Colors and fonts» tab
+                and choose the installed theme.
+            {% endblocktrans %}
+        </p>
+
+        <h4>{% trans 'Which IDEs are supported?' %}</h4>
+
+        <p>
+            {% blocktrans %}
+                Themes on this site support fully all family of JetBrains' IDEs:
+                InteliJ IDEA, PhpStorm, PyCharm, RubyMine, WebStorm and AppCode.
+            {% endblocktrans %}
+        </p>
+
+        <h4>{% trans 'Which platforms are supported?' %}</h4>
+
+        <p>
+            {% blocktrans %}
+                Windows, Mac OS and Linux are fully supported.
+            {% endblocktrans %}
+        </p>
+
+        <h4>{% trans 'How to help the project?' %}</h4>
+
+        <p>
+            {% blocktrans %}
+                You can donate any amount of money with «Donate» button.
+                This is non-commercial project but we still have to pay for the hosting.
+                That's why we will be glad to receive even a dollar.
+            {% endblocktrans %}
+        </p>
+
+        <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top"
+              style="display: inline-block; height: 26px;">
+            <input type="hidden" name="cmd" value="_s-xclick"/>
+            <input type="hidden" name="encrypted"
+                   value="-----BEGIN PKCS7-----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-----END PKCS7-----"/>
+            <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donate_LG.gif" border="0"
+                   name="submit" alt="PayPal - The safer, easier way to pay online!"
+                   style="padding-top: 7px;"/>
+            <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1"/>
+        </form>
+
+
+        <h4>{% trans 'Did not find an answer to your question?' %}</h4>
+
+        <p>
+            {% blocktrans %}
+                Feel free to send email to <a href="mailto:ideacolorthemes@gmail.org">ideacolorthemes@gmail.org</a>
+                with any questions, suggestions, bug reports and others. We read and reply to every mail.
+            {% endblocktrans %}
+        </p>
+    </div>
+{% endblock %}

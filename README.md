@@ -1,4 +1,4 @@
 idea-color-themes
 =================
 
-ideacolorthemes.org sources
+Sources of the http://www.ideacolorthemes.org

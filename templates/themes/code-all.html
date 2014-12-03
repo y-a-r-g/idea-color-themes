@@ -1,0 +1,8 @@
+{% for langTitle, langTemplate in languages %}
+    <div class="container">
+        <div class="well well-sm">
+            <h4 class="code-title">{{ langTitle }}</h4>
+            {% include langTemplate %}
+        </div>
+    </div>
+{% endfor %}
