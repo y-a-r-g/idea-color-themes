@@ -146,7 +146,7 @@ LOGGING = {
 
 AWS_STORAGE_BUCKET_NAME = "idea-color-themes-static"
 DEFAULT_FILE_STORAGE = 'storages.backends.s3boto.S3BotoStorage'
-MEDIA_URL = "https://%s.s3.amazonaws.com/" % DEFAULT_FILE_STORAGE
+MEDIA_URL = "https://%s.s3.amazonaws.com/" % AWS_STORAGE_BUCKET_NAME
 MEDIA_ROOT = ''
-AWS_ACCESS_KEY_ID = os.environ.get('AWS_ACCESS_KEY_ID', None)
-AWS_SECRET_ACCESS_KEY = os.environ.get('AWS_SECRET_ACCESS_KEY', None)
+AWS_ACCESS_KEY_ID = os.environ['AWS_ACCESS_KEY_ID']
+AWS_SECRET_ACCESS_KEY = os.environ['AWS_SECRET_ACCESS_KEY']

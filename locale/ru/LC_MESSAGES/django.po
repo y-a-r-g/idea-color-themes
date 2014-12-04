@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-10-23 23:32+0000\n"
+"POT-Creation-Date: 2014-12-04 12:51+0500\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -24,11 +24,11 @@ msgstr ""
 msgid "Theme with name \"%(name)s\" already exists"
 msgstr "Тема с именем \"%(name)s\" уже загружена"
 
-#: backend/forms/UploadThemeForm.py:48
+#: backend/forms/UploadThemeForm.py:51
 msgid "Theme file is not specified"
 msgstr ""
 
-#: backend/forms/UploadThemeForm.py:52
+#: backend/forms/UploadThemeForm.py:55
 msgid "Only ICLS and XML files are supported"
 msgstr ""
 
@@ -988,11 +988,11 @@ msgstr ""
 msgid "Zimbabwe"
 msgstr ""
 
-#: server/settings.py:99
+#: server/settings.py:74
 msgid "English"
 msgstr "Английский"
 
-#: server/settings.py:100
+#: server/settings.py:75
 msgid "Russian"
 msgstr "Русский"
 
@@ -1091,11 +1091,30 @@ msgstr ""
 "это некомерческий проект, а за хостинг платить нам нужно, то мы будем рады "
 "даже доллару."
 
-#: templates/help/index.html:56
+#: templates/help/index.html:55
+#, fuzzy
+msgid "How can I help to improve the site?"
+msgstr "Как помочь проекту?"
+
+#: templates/help/index.html:58
+msgid ""
+"\n"
+"                This is an open source project. You can explore sources at\n"
+"                <a href=\"https://github.com/y-a-r-g/idea-color-themes"
+"\">github</a>.\n"
+"                Will be great if you provide translations, language colors "
+"or\n"
+"                other improvements.\n"
+"            "
+msgstr ""
+"Это проект с открытым исходным кодом. Ознакомиться и предложить улучшения вы можете на "
+"<a href=\"https://github.com/y-a-r-g/idea-color-themes\">github</a>.\n"
+
+#: templates/help/index.html:67
 msgid "Did not find an answer to your question?"
 msgstr "Не нашли ответ на свой вопрос?"
 
-#: templates/help/index.html:59
+#: templates/help/index.html:70
 msgid ""
 "\n"
 "                Feel free to send email to <a href=\"mailto:"
@@ -1143,24 +1162,53 @@ msgstr ""
 "Используйте <a href=\"/themes/download-all-archive/\">прямую ссылку</a> если "
 "загрузка не началась в течении нескольких секунд."
 
+#: templates/themes/download-all-payed.html:27
+#, fuzzy
+msgid ""
+"\n"
+"                We remember your browser. You don't need to pay again\n"
+"                to download all themes in the future. If for some reason you "
+"asked\n"
+"                to pay - just write to\n"
+"                <a href=\"mailto:info@ideacolorthemes.org"
+"\">info@ideacolorthemes.org</a>\n"
+"            "
+msgstr ""
+"\n"
+"Мы запомнили ваш браузер. В будущем не нужно проводить повторную оплату. "
+"Если будет запрошена повторная оплата, напишите на <a href=\"mailto:"
+"info@ideacolorthemes.org\">info@ideacolorthemes.org</a>."
+
 #: templates/themes/download-all.html:7 templates/themes/theme.html:29
 #: templates/themes/theme.html.py:80
 msgid "Download All Themes"
 msgstr "Скачать все темы"
 
 #: templates/themes/download-all.html:10
+#, fuzzy
 msgid ""
 "\n"
 "                You can download all themes in a single archive for <strong>"
-"$1</strong>.\n"
+"$2</strong>.\n"
 "                It will help us to keep the site online. Thank you!\n"
 "            "
 msgstr ""
 "\n"
-"Вы можете скачать все темы в одном архиве за <strong>$1</strong>. Это "
+"Вы можете скачать все темы в одном архиве за <strong>$2</strong>. Это "
 "поможет нашему сайту оставаться в сети. Спасибо!"
 
 #: templates/themes/download-all.html:20
+msgid ""
+"\n"
+"                If you wont be redirected after paypal accept payment -\n"
+"                open this page again. Your download will start "
+"automatically.\n"
+"            "
+msgstr ""
+"Если после оплаты вы не будете перенаправленны автоматически - откройте эту "
+"страницу, загрузка начнется автоматически."
+
+#: templates/themes/download-all.html:26
 #, fuzzy
 msgid ""
 "\n"

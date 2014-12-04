@@ -168,7 +168,7 @@ def download_all(request):
 
     form = PayPalPaymentsForm(initial={
         'business': settings.PAYPAL_RECEIVER_EMAIL,
-        'amount': '1.00',
+        'amount': '2.00',
         'item_name': 'All themes for IDEA',
         'invoice': token.value,
         'notify_url': ROOT_URL + reverse('paypal-ipn'),
